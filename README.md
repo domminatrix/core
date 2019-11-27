@@ -3,7 +3,9 @@
 ## installation
 
 kubectl delete namespace domminatrix
+
 kubectl create namespace domminatrix
+
 
 thanks : https://rancher.com/blog/2019/deploying-redis-cluster/
 
