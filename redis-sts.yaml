@@ -22,6 +22,7 @@ apiVersion: apps/v1
 kind: StatefulSet
 metadata:
   name: redis-cluster
+  namespace: domminatrix
 spec:
   serviceName: redis-cluster
   replicas: 2
