@@ -26,7 +26,7 @@ metadata:
   namespace: domminatrix
 spec:
   serviceName: redis-cluster
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: redis-cluster
